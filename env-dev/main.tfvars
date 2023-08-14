@@ -7,5 +7,9 @@ parameters = [
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.lokeshnagireddy.online"},
   { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.lokeshnagireddy.online:27017/catalogue"},
   { name = "dev.user.redis_host", value = "redis-dev.lokeshnagireddy.online"},
-  { name = "dev.user.catalogue_host", value = "catalogue-dev.lokeshnagireddy.online"}
+  { name = "dev.user.catalogue_host", value = "catalogue-dev.lokeshnagireddy.online"},
+  { name = "dev.cart.redis_host", value = "redis-dev.lokeshnagireddy.online"},
+  { name = "dev.cart.catalogue_host", value = "catalogue-dev.lokeshnagireddy.online"},
+  { name = "dev.shipping.cart_host", value = "cart-dev.lokeshnagireddy.online"},
+  { name = "dev.shipping.mysql_host", value = "mysql-dev.lokeshnagireddy.online"}
 ]
