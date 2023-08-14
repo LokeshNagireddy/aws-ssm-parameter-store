@@ -10,6 +10,6 @@ parameters = [
   { name = "dev.user.catalogue_host", value = "catalogue-dev.lokeshnagireddy.online"},
   { name = "dev.cart.redis_host", value = "redis-dev.lokeshnagireddy.online"},
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.lokeshnagireddy.online"},
-  { name = "dev.shipping.cart_endpoint", value = "cart-dev.lokeshnagireddy.online"},
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.lokeshnagireddy.online:8080"},
   { name = "dev.shipping.mysql_host", value = "mysql-dev.lokeshnagireddy.online"}
 ]
